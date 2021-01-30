@@ -50,12 +50,13 @@
                     <input class="inp-style" type="date" name="">
                 </div>
             </div>
-            <div class="input-group f-class">
+            <div class="input-group f-class d-flex flex-row">
                 <div>
                     <label for="">First Class ($150)</label>
                     <input id="ticket-count" class="inp-style inp-width" type="number" value="0">
                 </div>
-                <div class="plus-minus-btn">
+                <div class="plus-minus-btn ">
+                    
                     <p> <span onclick="handleTicketChanger('ticket',true);" type="button"
                             class=" btn btn-primary btn-sm  mt-4">+</span>
 
@@ -65,18 +66,18 @@
                 </div>
             </div>
 
-            <div class="input-group f-class">
+            <div class="input-group f-class d-flex flex-row">
                 <div>
                     <label for="">Economy ($100)</label>
 
                     <input id="economy-count" class="inp-style inp-width" type="number" value="0">
                 </div>
-                <div class="plus-minus-btn">
-                    <p> <span onclick="handleTicketChanger( 'economy',true);" type="button"
+                <div class="plus-minus-btn ">
+                    <p class=".flex-row"> <span onclick="handleTicketChanger( 'economy',true);" type="button"
                             class=" btn btn-primary btn-sm  mt-4">+</span>
 
                         <span onclick="handleTicketChanger( 'economy',false);" type="button"
-                            class="btn btn-danger btn-sm mt-4">-</span>
+                            class="btn btn-danger btn-sm mt-4 mr-2">-</span>
                     </p>
                 </div>
             </div>
